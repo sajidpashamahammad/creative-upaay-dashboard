@@ -1,26 +1,23 @@
 # Creative Upaay Dashboard
 
-React + Redux + Tailwind + react-beautiful-dnd Kanban dashboard replicating Figma design.
+## Project Overview
+A responsive task management dashboard with:
+- Add/Remove/Update tasks
+- Drag & drop tasks across columns
+- Filter by category, priority, and search
+- Persistent storage using Redux + localStorage
+- Fully responsive for desktop and mobile
 
-## Features
-- Three-column Kanban (To Do / In Progress / Done)
-- Add / Edit / Delete tasks
-- Drag-and-drop to move tasks
-- Filtering by category, priority and search
-- Redux for state management
-- Local Storage persistence (state saved automatically)
-
-## Local setup
-1. clone repository
-2. `npm install`
-3. `npm start` — runs at http://localhost:3000
-
-## Build & Deploy
-- `npm run build` for production bundle
-- Deploy to Netlify / Vercel by pointing to the repo or drag/drop the `build` folder.
-
-## Tech
-- React
+## Technologies Used
+- React.js
 - Redux
-- react-beautiful-dnd
 - Tailwind CSS
+- @hello-pangea/dnd (Drag & Drop)
+- UUID (unique task IDs)
+
+## Steps to Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/creative-upaay-dashboard.git
+   cd creative-upaay-dashboard
+2. Live Link: https://creativeupaay-dashboard.netlify.app/
